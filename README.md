@@ -41,10 +41,7 @@ The project, which supports addition, subtraction, multiplication, and division,
 - **TFHE-rs:** This project uses the TFHE-rs library for fully homomorphic encryption. It is included as a dependency in the Cargo.toml file.
 - **Rayon:** The Rayon library is used for parallel processing, also included as a dependency.
 ``` 
-#To include library run:
-cargo add tfhe
-
-#Alternatively paste the line below in 'Cargo.toml' 
+#To include library run: paste the line below in 'Cargo.toml' 
 #For x86_64 machine running a Unix-like OS:
 
 tfhe = { version = "0.7.2", features = [ "boolean", "shortint", "integer", "x86_64-unix" ] }
@@ -72,12 +69,6 @@ cargo run build
 > Ok(())
 > }
 
-## Run code
->[!TIP]
-> Performance: for optimal performance, it is highly recommended to run code that uses TFHE-rs in release mode with cargo's --release flag.
->```
->cargo -- run release
->```
  ## Contributing
   - If you intend to contribute to this project, fork the repository and make a pull request.
 
