@@ -1,4 +1,4 @@
-This project implements several homomorphic procedures in parallel utilizing the TFHE (Tor's Fully Homomorphic Encryption) library, which includes optional execution modes. It supports both parallel and single-threaded execution, allowing users the flexibility to optimize performance based on their individual requirements.
+This program implements several homomorphic procedures in parallel utilizing the TFHE (Tor's Fully Homomorphic Encryption) library, which includes optional execution modes. It supports both parallel and single-threaded execution, allowing users the flexibility to optimize performance based on their individual requirements.
 ## Overview
 This project shows how to use the TFHE (Tor's Fully Homomorphic Encryption) library to execute homomorphic encryption operations with better performance due to parallelism. It supports both parallel and single-threaded execution of typical homomorphic operations, giving users the ability to optimize performance dependent on workload and dataset size.
 
