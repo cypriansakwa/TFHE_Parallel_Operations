@@ -1,0 +1,8 @@
+[package]
+name = "TFHE_Parallel_Operations"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tfhe = { version = "*", features = ["boolean", "shortint", "integer", "x86_64"] }
+rayon = "1.5"
