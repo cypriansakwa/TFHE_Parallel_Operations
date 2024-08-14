@@ -22,9 +22,6 @@ The project, which supports addition, subtraction, multiplication, and division,
 - **Improved Performance:** Parallel execution of huge datasets or complex computations can result in significant performance increases. This is accomplished by dividing the task across numerous CPU cores, which reduces processing time.
 - **Efficient Resource Utilization:** Parallel processing makes the best use of available CPU cores, resulting in better resource utilization and faster execution times.
 - **Scalability:** The technique scales well with the size of the dataset and the number of operations, making it appropriate for scenarios involving enormous amounts of data.
-## Integration into TFHE Library:
-- To integrate this directly into the TFHE library, you would need to:
-   - Modify the FheUint64 type (and other similar types) to implement this ParallelHomomorphicOps trait directly within the library.
 ## Configuration
 -Execution Modes
   - **Parallel:** Uses Rayon to parallelize operations, which can improve performance for large datasets or complex computations.
@@ -95,5 +92,5 @@ cargo run build
 - Rust
   
 ```bash
-git clone https://github.com/cypriansakwa/Parallel_Homomorphic_Operations_for_TFHE_using_Rayon.git
-cd Parallel_Homomorphic_Operations_for_TFHE_using_Rayon
+git clone https://github.com/cypriansakwa/TFHE_Parallel_Operations.git
+cd TFHE_Parallel_Operations
