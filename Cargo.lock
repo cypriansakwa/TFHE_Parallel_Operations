@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "aad"
+name = "TFHE_Parallel_Operations"
 version = "0.1.0"
 dependencies = [
  "rayon",

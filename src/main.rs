@@ -111,8 +111,8 @@ fn parallel_homomorphic_operations(mode: ExecutionMode) -> Result<(), Box<dyn st
     set_server_key(server_key);
 
     // Clear text values to be encrypted
-    let clear_a = 1234567890123456789_u64;
-    let clear_b = 9876543210987654321_u64;
+    let clear_a = 9234567_u64;
+    let clear_b = 6876543_u64;
 
     // Encrypt the clear text values
     let a = FheUint64::try_encrypt(clear_a, &client_key)?;
